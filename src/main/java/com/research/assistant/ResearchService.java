@@ -79,14 +79,14 @@
                 case "suggest":
                     prompt.append("Based on this content, recommend related topics and further reading. Format with clear headings and concise bullet points. in order list manner ");
                     break;
-                case "funnyQuote":
-                    prompt.append("Share an amusing quote to provide a quick mental break. Attribute to Vishal Jain.");
+                case "timeComplexity":
+                    prompt.append("Please tell time and space complexity in very clean way: give reason also in short");
                     break;
                 case "similarQuestion":
                     prompt.append("GIve only questions similar to this DSA question with link of question related to that topics");
                     break;
                 case "simplify":
-                    prompt.append("Explain the main concepts in this content using simple, everyday language and practical examples anyone can understand.");
+                    prompt.append("See this page and generate test cases related to this questions with good accuracy generate test cases for this question");
                     break;
                 case "keyInsights":
                     prompt.append("Extract the 3-5 most important insights from this content, explaining why each matters and its practical implications.");
